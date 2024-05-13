@@ -10,21 +10,44 @@
     --- % calcula o tamanho relativo ao elemnto pai
     --- vw (view width) 1vw é 1% da largura da janela do navegador
     --- vh (view height) 1vh é 1% da altura da janela do navegador
+    emphemeral unit - unidade transitória
     --- em é uma unidade relativa ao elemento pai
     --- rem é uma unidade relativa ao elemento raiz
-
+    root emphemeral unit - unidade transitória da raiz
     
 */  
 
-.VO {
- background-color: aquamarine;
+/*
+    Textos em CSS
+
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    
+    color: red;
+    font-size: 64px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+
+
 }
 
-.pai {
-    font-size: 16px;
+p {
 
+    color: blue;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+   /* line-height: 50px;
+    letter-spacing: 10px;
+    word-spacing: 40px;
+    text-align: center;
+    */
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 10px 10px 5px red ;
 }
 
-.filho {
-    font-size: 50%;
-}
