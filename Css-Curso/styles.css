@@ -111,14 +111,19 @@ p {
 
      - Elementos em linha
      - Não permite alterar height e width
-     - Não podemos definir valores de 
+     - Não podemos definir valores de margin top e bottom
+     - Ganha comportamento de uma palavra
+
+
+    Inline-Block
+     - Elementos em linha, porém com
 */
 
 .box-1 {
     background: #ff1395;
     height: 50px;
     width: 50px;
-    
+
 }
 
 .box-2 {
