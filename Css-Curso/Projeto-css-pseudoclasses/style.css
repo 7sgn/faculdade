@@ -26,3 +26,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+li:last-child {
+    color: red;
+}
+
+span:first-of-type {
+    color: red;
+}
+
+p:first-of-type {
+    color: red;
+}
+*/
+
+.contanier :not(p) {
+    color: red;
+}
