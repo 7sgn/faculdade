@@ -94,11 +94,11 @@ p {
     - Inline
     - Inline-block
 
-    -GRID
-    -FLEX
+    - GRID
+    - FLEX
 
-    BLOCK
-     Vem como padrão: div, section, p, h1, h2, h2, ul, li, article...
+      BLOCK
+      Vem como padrão: div, section, p, h1, h2, h2, ul, li, article...
 
      - Ocupa 100% da largura do elemento pai
      - Sempre ocupa toda a sua linha
@@ -120,6 +120,7 @@ p {
 */
 
 .box-1 {
+
     background: #ff1395;
     height: 50px;
     width: 50px;
@@ -127,11 +128,13 @@ p {
 }
 
 .box-2 {
+
     background: #ffff00;
 
 }
 
 .box-3 {
+
     background: #0003ff;
 
 }
