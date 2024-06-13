@@ -11,7 +11,7 @@
     :read-only - seleciona input ou texares que são apenas leitura
     :empty - elemento que não tem filho
 
-    :first-child - primeiro filho / ex: preimeira li de uma ul / primeiro span de uma div
+    :first-child - primeiro filho / ex: primeira li de uma ul / primeiro span de uma div
     :first-of-type - primeiro elemento de seu tipo entre os filhos de seu elemento pai
     :last-child - último filho
     :last-of-type - último elemento de seu tipo entre os filhos de seu elemento pai
