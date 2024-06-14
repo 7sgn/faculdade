@@ -30,13 +30,13 @@ def info():
 
 info()
 
-   # with open(txt, 'w') as arquivo:
-        arquivo.write(f'{infor}')   
-   # print(f'As informações foram salvas em "{txt}"')
+    # with open(txt, 'w') as arquivo:
+    #    arquivo.write(f'{infor}')   
+    # print(f'As informações foram salvas em "{txt}"')
 
 
 
 
 
-# memoria
-# ultimo usuário logado
+    # memoria
+    # ultimo usuário logado
