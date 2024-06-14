@@ -2,7 +2,7 @@
 
     1. String --> Textos*
     2. Numbers --> Números
-    3. Boolean -->
+    3. Boolean --> 
     4. Object --> Objetos
 
     
@@ -22,6 +22,7 @@ const Marlon = {
         country: 'Brasil'
     }
 }
+
 Marlon.addreess.number = 1
 
 console.log(Marlon.addreess.number)

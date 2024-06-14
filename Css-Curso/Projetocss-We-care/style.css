@@ -44,8 +44,13 @@
 }
 
 .img-logo {
+<<<<<<< HEAD
     Width:550px;
     Height:500px;
+=======
+    Width: 568px;
+    Height:550px;
+>>>>>>> 177d6c587b0ad0ccc0710d3f38aa93ae66898b90
     margin-left: 125px;
     display: inline-block;
 }

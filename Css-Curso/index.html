@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div class="box-1">
+        Minha div-1
+    </div>
+    <div class="box-1 box-2">
+        Minha div-2
+    </div>
+    <div class="box-1 box-3">
+        Minha div-3
+    </div>
+</body>
+</html>
+
+import wmi
+import platform
+import psutil
+
+def info():
+    init = wmi.WMI()
+    nó = platform.node()
+    disco = psutil.disk_usage('/')
+    total = disco.total / (1024 ** 3)
+    uso_disco = disco.percent
+
+
+    for processor in init.Win32_Processor():
+        print('Nome do processador: ', processor.Name)
+        break
+
+
+    print('Nome: ', nó)
+    print(f'Disco: {total:.2f}GB')
+    print(f'Uso do disco', disco.percent, '%')
+
+info()
