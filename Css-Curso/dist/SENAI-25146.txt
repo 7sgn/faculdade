@@ -1,9 +1,0 @@
-Nome do processador: AMD Ryzen 5 PRO 4650GE with Radeon Graphics
-Nome: SENAI-25146
-Usuário logado: marlon.sette
-Logs de user: ['marlon.sette']
-Versão do SO: Windows-10-10.0.19045-SP0
-Disco: 237.84GB
-Uso do disco: 78.1%
-Memória total: 7.31GB
-Memória em uso: 6.20GB
