@@ -75,11 +75,12 @@ section {
     
 }
 
+
+
 .logo {
     width: 300px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto 6px;
 
 }
 
@@ -101,7 +102,7 @@ section {
     font-weight: 400;
 }
 
-.currency.value {
+.currency.value, .currency-value-to-convert {
     color: rgba(85, 85, 85, 1);
     font-weight: 700;
     font-size: 20px;
