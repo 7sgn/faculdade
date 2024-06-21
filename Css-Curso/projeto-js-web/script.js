@@ -1,12 +1,12 @@
 const convertButton = document.querySelector('.convert-button')
-
+const currencySelect = document.querySelector('.currency-select')
 
 function convertValues(){
     const inputCurrencyValue = document.querySelector('.input-currency').value
 
     const currencyValueToConvert = document.querySelector('.currency-value-to-convert')
     const currencyValueConverted = document.querySelector('.currency-value')
-    const currencySelect = document.querySelector('.currency-select')
+    
     
 
     const dolarToday = 5.2
@@ -38,11 +38,11 @@ function convertValues(){
 function changeCurrency(){
     const changeImage = document.querySelector('.currency-img')
     
-    if(currencySelect == 'dolar'){
+    if(currencySelect.value == 'dolar'){
         changeImage.src = './assets/dolar.png'
     }
 
-    if(currencySelect == 'euro'){
+    if(currencySelect.value == 'euro'){
         changeImage.src = './assets/euro.png'
     }
 }
