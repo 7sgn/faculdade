@@ -107,3 +107,13 @@ section {
     font-weight: 700;
     font-size: 20px;
 }
+
+.currency-img-to-convert{
+    height: 50px;
+    width: 50px;
+}
+
+.currency-img{
+    height: 50px;
+    width: 50px;
+}
