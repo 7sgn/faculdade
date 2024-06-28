@@ -2,7 +2,7 @@
     setTimeout -> Executa uma vez
     setInterval -> Executa infinita vezes
         
-    */
+    
 
 setTimeout(() => {
     // executa o que estiver aqui
@@ -43,3 +43,4 @@ function stop(){
 
 
 }
+*/
