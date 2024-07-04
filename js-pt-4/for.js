@@ -13,7 +13,7 @@
 //     console.log(i)
 // }
 
-const users = ['maria', 'joão', 'tiago', 'pedro', 'maria', 'joão', 'tiago', 'pedro', 'maria', 'joão', 'tiago', 'pedro',]
+const users = ['maria', 'joão', 'tiago', 'pedro', 'maria', 'joão', 'tiago', 'pedro', 'maria', 'joão', 'tiago', 'pedro',] // lenght é o tamanho do array nesse caso 13
 
 for(let i=0; i < users.length; i++){
     console.log(users[i])
