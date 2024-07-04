@@ -40,14 +40,14 @@ function sub(value = 0, value2 = 1) {
     console.log(value - value2)
 }
 
-fucntion div(value = 0, value2 = 1) {
+function div(value = 0, value2 = 1) {
     console.log(value / value2)
 }
 
 function exp(value =0, value2 = 1) {
     console.log( value ** value2)
 }
-o
+
 
 sum(23, 45)     // soma
 sub(23, 43)     // subtração
