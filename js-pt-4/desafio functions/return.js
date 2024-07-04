@@ -1,7 +1,6 @@
 /*
     Calcula Desconto:
     Todos os produtos acima de R$ 30,00 tem desconto de 10%
-
 */
 
 const cart = [10, 244, 99, 2, 20, 33, 250]
@@ -20,8 +19,7 @@ cart.forEach(value => {
     } else {
         finalValue += value
     }
-                            
-             // aqui cerificamos o valor de cada item do array e somamos ele.
+    // aqui cerificamos o valor de cada item do array e somamos ele.
 });
 
 console.log(finalValue)
