@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("./assets/jokenpo.jpg");
+    background-image: url("./assets/jokenpo2.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -20,11 +20,12 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
-    background-color: white;
+    background-color: hwb(0 95% 3% / 0);
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 
 }
 
@@ -68,20 +69,26 @@ button:hover{
 }
 
 .your-score span {
-    color: rgb(114, 114, 223);
+    color: rgb(9, 9, 148);
     
 }
 
 .machine-score span {
-    color: rgb(236, 113, 113);
+    color: rgb(44, 2, 2);
 }
 
 .your-score {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 h1 {
     padding-bottom: 20px;
     font-family: "Honk";
     font-size: 60px;
+}
+
+p {
+    font-family: "Macondo Swash Caps";
+    font-size: 30px;
+    background-color: aliceblue;
 }
