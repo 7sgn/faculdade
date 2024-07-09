@@ -81,13 +81,11 @@ button:hover{
     color: rgb(114, 114, 223);
     background-color: black;
     padding: 5px;
-    color: rgb(9, 9, 148);
     
 }
 
 .machine-score span {
 
-    color: rgb(159, 118, 236);
     background-color: black;
     padding: 5px;
     color: rgb(243, 191, 191);
@@ -108,7 +106,6 @@ p {
     font-family: "Micro 5", sans-serif;
     font-size: 30px;
     margin: 20px;
-    margin: 20px 15px;
     font-family: "Macondo Swash Caps";
     font-size: 30px;
 }
