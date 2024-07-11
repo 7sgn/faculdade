@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+
 
 * {
     margin: 0;
@@ -20,7 +24,7 @@ body {
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
-    background-color: hwb(0 95% 3% / 0.247);
+    background-color: hwb(0 82% 11% / 0.377);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +49,8 @@ p {
 
 
 button {
-    margin: 15px;
+
+    margin: 10px;
     padding: 10px;
     font-size: 50px;
     cursor: pointer;
@@ -72,12 +77,18 @@ button:hover{
 }
 
 .your-score span {
-    color: rgb(9, 9, 148);
+
+    color: rgb(114, 114, 223);
+    background-color: black;
+    padding: 5px;
     
 }
 
 .machine-score span {
-    color: rgb(44, 2, 2);
+
+    background-color: black;
+    padding: 5px;
+    color: rgb(243, 191, 191);
 }
 
 .your-score {
@@ -91,8 +102,10 @@ h1 {
 }
 
 p {
-    margin: 20px 15px;
+
+    font-family: "Micro 5", sans-serif;
+    font-size: 30px;
+    margin: 20px;
     font-family: "Macondo Swash Caps";
     font-size: 30px;
-    background-color: aliceblue;
 }
