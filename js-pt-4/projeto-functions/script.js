@@ -13,6 +13,7 @@ let machinePointCont = 0
 
 */
 
+// ENUM 
 const GAME_OPTIONS = {
     ROCK: 'Pedra',
     PAPER: 'Papel',
@@ -42,8 +43,8 @@ const playTheGame = (human, machine) => {
         resultChoice.innerHTML = `Você escolheu: ${human} e a Alexa escolheu: ${machine}`
 
     } else if ((human === GAME_OPTIONS.PAPER && machine === GAME_OPTIONS.ROCK) ||
-        (human === GAME_OPTIONS.ROCK && machine === GAME_OPTIONS.SCISSORS') ||
-        (human ===GAME_OPTIONS.SCISSORS && machine === GAME_OPTIONS.PAPER)) {
+        (human === GAME_OPTIONS.ROCK && machine === GAME_OPTIONS.SCISSORS) ||
+        (human === GAME_OPTIONS.SCISSORS && machine === GAME_OPTIONS.PAPER)) {
 
         result.innerHTML = 'Você ganhou, parabéns!'
         resultChoice.innerHTML = `Você escolheu: ${human} e a Alexa escolheu: ${machine}`
