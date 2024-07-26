@@ -137,6 +137,6 @@ Vamos considerar um exemplo em que tentamos modificar uma variável
 global usando global em uma função lambda, mas não podemos.
 
 Função Regular Modificando uma Variável Global:
-
+ee
 
 '''
