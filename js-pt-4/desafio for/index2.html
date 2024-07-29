@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Desafio</title>
+</head>
+<body>
+    <input placeholder="Digite o nome do contato">
+    <p></p>
+    <button onclick="search()">Procurar contato</button>
+</body>
+<script>
+
+    let p = document.querySelector('p')
+    let input = document.querySelector('input')
+
+    const contacts = [
+        {name: 'Marlon', number: '(18) 9434-3434'},
+        {name: 'João', number: '(19) 9434-3434'},
+        {name: 'Maria', number: '(61) 9434-3434'},
+        {name: 'Patricia', number: '(78) 9434-3434'}
+    ]
+
+    function search(){
+
+        contacts.forEach(contact => {
+            if (input.value.toLowerCase() === contact.name.toLowerCase()) {
+                p.innerHTML = `Contato Encontrado Nome:${contact.name} Tel: ${contact.number}`
+           }else {
+                p.innerHTML = 'Contato não encontrado, tente novamente'
+           }
+        });   // Não existe ferramenta melhor ou pior nesse caso retorna erro porque não se usa break em foreach talvez o for ou while seja a melhor escolha nesse caso
+    }
+</script>
+</html>
