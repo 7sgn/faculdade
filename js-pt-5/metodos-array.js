@@ -256,7 +256,93 @@ console.log(myArray3)
 
 const myArray4 = ['limão', 'abacate','caqui']
 
-delete myArray4[0]          // Deleta o item do array
+delete myArray4[0]          // Deleta o item do array, mas a posição continua a mesma
 
 console.log(myArray4)
 
+
+const users = [
+	{ name: 'Nico', credit: 600},
+	{ name: 'Maria', credit: 900},
+	{ name: 'Maria', credit: 300},
+	{ name: 'Vanessa', credit: 200}
+]
+
+const isTrue = users.every( user => user.credit > 100) 
+
+
+console.log(isTrue) // retorna True se todos ositens do array passarem na condição, caso contrario retorna False
+
+
+const isSome = users.some( user => user.credit > 300) // retorna True se pelo menos 1 item do array passar  condição
+
+console.log(isSome)
+
+const numbers = [1, 2, 3, 4]
+
+numbers.fill('abacate', 0, 2) // fill substitui pelo item que for colocado no método fill
+						// na primeira posição é o item que você QUER SUBSTITUIR, na segunda posição a partir de onde começa e na terceira onde você quer que termine
+console.log(numbers)
+
+
+const users1 = [
+	{ name: 'Nico', credit: 600},
+	{ name: 'Maria', credit: 900},
+	{ name: 'João', credit: 300},
+	{ name: 'Vanessa', credit: 200}
+]
+
+const findAUser = users1.find( user => user.name === 'Maria') // verifica se o item está no array caso contrário retorna undefined
+
+console.log(findAUser)
+
+const findAUser1 = users1.findIndex( user => user.name === 'Vanessa') 
+
+console.log(findAUser1) // retona em qual posição o item está
+
+users1[findAUser1].name = 'Maria Joaquina'
+
+console.log(users1)
+
+
+const array0 = ['a', 'b', 'c']
+const array01 = ['d', 'e', 'f']
+const numbers1 = [1, 3, 5]
+const numbers2 = [2, 4, 6]
+
+const array03 = array0.concat(array01)
+console.log(array03)
+
+
+const elements = ['Fire', 'Air', 'Water']
+
+const elements1 = elements.join(' ')
+
+console.log(elements1)
+
+const elements3 = ['Fire', 'Air', 'Water']
+
+elements.pop() // Elimina o último item do array
+
+console.log(elements3)
+
+
+const elements4 = ['Fire', 'Air', 'Water']
+
+elements4.shift() // elimina o primeiro item do array
+
+console.log(elements4)
+
+const peopleNames = ['João', 'Maria', 'Pedro', 'Michele', 'Fernando']
+
+const newPeople = peopleNames.slice(1, 3) // fatia e retorna somente os items selecionados do array
+										
+console.log(newPeople)
+
+
+
+const peopleNames1 = ['João', 'Maria', 'Pedro', 'Michele', 'Fernando']
+
+peopleNames1.splice(0, 3, 'Patrícia') // substitui o item do array original, confome selecionado
+
+console.log(peopleNames1)
