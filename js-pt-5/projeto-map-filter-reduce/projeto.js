@@ -14,4 +14,3 @@ const menuOptions = [
     
     ]
 
-console.log(menuOptions)
