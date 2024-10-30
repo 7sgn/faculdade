@@ -1,12 +1,19 @@
 import { useRef } from 'react'
 import api from '../../services/api.js'
-import { Container, TopBackground, Form, ContainerInputs, Input, InputLabel, Button, Title } from './styles.js'
-import UserImage from '../../assets/users.png'
+import { Container, Form, ContainerInputs, Input, InputLabel } from './styles.js'
+import { useNavigate } from 'react-router-dom'
 
-export function Home() {
+
+import Button from '../../components/Button'
+import Background from '../../components/TopBackground'
+import Title from '../../components/Title'
+
+function Home() {
   const inputName = useRef()
   const inputAge = useRef()
   const inputEmail = useRef()
+
+  const navigate = useNavigate()
 
   async function registerNewUser() {
     const data = await api.post('/usuarios', {
@@ -21,9 +28,9 @@ export function Home() {
 
   return (
     <Container>
-      <TopBackground>
-        <img src={UserImage} alt='imagem de usuários' />
-      </TopBackground>
+      <Background />
+        
+      
 
       <Form>
         <Title>Cadastro de usuários</Title>
@@ -53,9 +60,10 @@ export function Home() {
         </div>
 
 
-        <Button type='button' onClick={registerNewUser}>Cadastrar Usuário</Button>
+        <Button type='button' onClick={registerNewUser} theme='primary'>Cadastrar Usuário</Button>
       </Form>
 
+        <Button type='button' onClick={() => navigate('./lista-de-usuarios')}>Ver Lista de Usuários</Button>
 
     </Container>
 
@@ -63,6 +71,7 @@ export function Home() {
   )
 }
 
+export default Home
 
 
 /*
